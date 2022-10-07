@@ -11,7 +11,6 @@
 :root {
   --hue: 90;
   --primary-color: hsl(var(--hue), 92%, 43%);
-  /* --: #6ed309; */
   --primary-hover: hsl(var(--hue), 92%, 33%);
   --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
@@ -272,37 +271,6 @@ body.light-mode nav.scroll {
 }
 
 /* LOGO */
-
-/* nav#navigation a img:nth-child(2),
-nav#navigation a img:nth-child(3),
-nav#navigation a img:nth-child(4),
-nav#navigation.scroll a img:nth-child(1),
-body.light-mode nav#navigation a img:nth-child(1),
-body.light-mode nav#navigation.scroll a img:nth-child(2),
-body.light-mode nav#navigation.scroll a img:nth-child(3),
-body.light-mode.menu-expanded nav#navigation.scroll a img:nth-child(4),
-body.light-mode.menu-expanded nav#navigation a img:nth-child(3),
-body.menu-expanded nav#navigation a img:nth-child(1) {
-  display: none;
-}
-
-body.light-mode.menu-expanded nav#navigation.scroll a img:nth-child(2),
-body.light-mode nav#navigation.scroll a img:nth-child(4),
-body.light-mode nav#navigation a img:nth-child(3),
-nav#navigation.scroll a img:nth-child(2),
-body.menu-expanded nav#navigation a img:nth-child(2) {
-  display: initial;
-}
-
-nav#navigation a img:nth-child(1),
-nav#navigation.scroll a img:nth-child(2),
-body.light-mode nav#navigation.scroll a img:nth-child(4) {
-  opacity: .6;
-}
-
-body.menu-expanded nav#navigation a img:nth-child(2) {
-  opacity: 1;
-} */
 
 a.logo {
   font-family: 'Gemunu Libre', sans-serif;
@@ -618,18 +586,6 @@ body.light-mode #home img#notebook-2-white {
   text-decoration: none;
   color: var(--paragraph);
   font-weight: bold;
-}
-
-#about .content a:nth-child(2) svg path:nth-child(2) {
-  fill: var(--headline);
-}
-
-#about .content a:nth-child(2) {
-  color: var(--headline);
-}
-
-#about .content a:nth-child(2):hover {
-  background-color: var(--third-color);
 }
 
 #about .col-a {
@@ -1478,11 +1434,6 @@ footer .social-links {
   }
 
   /*===== NAVEGATION ==================================*/
-
-  /* nav#navigation img,
-  footer img {
-    width: 10rem;
-  } */
 
   nav#navigation button svg {
     width: 3rem;
