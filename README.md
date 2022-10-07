@@ -17,7 +17,7 @@ Projeto feito no intuito de me apresentar, como desenvolvedor web front-end.
 - **Projetos:** Alguns projetos recentes que fiz;
 - **Conhecimentos:** As técnologias que tenho conhecimento;
 - **Fale comigo:** Área com meios para contato comigo;
-- **Redes:** Minhas redes sociais disponíveis no menu de navegação e no rodaé do site.
+- **Redes:** Minhas redes sociais disponíveis no menu de navegação e no rodapé do site.
 
 ## 🧠 Tecnologias utilizadas:
 
