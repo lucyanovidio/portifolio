@@ -10,16 +10,14 @@ const notebook_1 = document.querySelector('#notebook-1')
 const notebook_2 = document.querySelector('#notebook-2')
 const notebook_2_white = document.querySelector('#notebook-2-white')
 const vidro = document.querySelector('#vidro')
-// const homeWrapperBefore = document.querySelector('#home .wrapper::before')
 
 
 window.addEventListener('load', function begin() {
   projetos(projectsSection)
-
   const desafioBtn = document.querySelector('#desafio')
+  
   desafioBtn.addEventListener('click', () => {
     desafios(projectsSection)
-  
     document.querySelector('#backToProjectsBtn').addEventListener('click', begin)
   })
 })
@@ -34,7 +32,6 @@ window.onload = setTimeout(() => {
   notebook_2.style.animation = 'none'
   notebook_2_white.style.animation = 'none'
   vidro.style.animation = 'none'
-  // homeWrapperBefore.style.animation = 'none'
 }, 4000)
 
 function onScroll() {
@@ -104,14 +101,6 @@ function closeMenu() {
     })
   })
 }
-
-// function openMenu() {
-//   document.body.classList.add('menu-expanded')
-// }
-
-// function closeMenu() {
-//   document.body.classList.remove('menu-expanded')
-// }
 
 ScrollReveal({
   origin: 'bottom',
