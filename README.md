@@ -23,9 +23,7 @@ Projeto feito no intuito de me apresentar, como desenvolvedor web front-end.
 
 O site **ainda está em desenvolvimento** pois estou em constante aprendizado, mas até aqui utilizei apenas:
 
-- **HTML**
-- **CSS**
-- **JavaScript**
+![Stacks](https://skillicons.dev/icons?i=html,css,js&perline=8&theme=light)
 
 ---
 
