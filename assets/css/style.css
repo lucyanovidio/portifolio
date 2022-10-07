@@ -13,9 +13,9 @@
   --primary-color: hsl(var(--hue), 92%, 43%);
   /* --: #6ed309; */
   --primary-hover: hsl(var(--hue), 92%, 33%);
-  --secundary-color: hsl(0, 0%, 3%);
+  --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
-  --bg-color: hsl(0, 0%, 6%);
+  --bg-color: hsl(0, 0%, 8%);
 
   --headline: hsl(0, 0%, 100%);
   --paragraph: hsla(0, 0%, 100%, 0.658);
