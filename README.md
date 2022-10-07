@@ -1,8 +1,8 @@
-# Portifólio // Lucyan 💻
+<h1 align="center">Portifólio - Lucyan 💻</h1>
 
 <img src="assets/images/projects/portifolio.png" alt="Imagem do projeto finalizado">
 
-#### <a href="https://lucyanovidio.vercel.app" align="center">Confira o projeto aqui</a>
+<h4 align="center"><a href="https://lucyanovidio.vercel.app">Confira o projeto aqui</a></h4>
 
 ---
 
