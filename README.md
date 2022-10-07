@@ -21,7 +21,7 @@ Projeto feito no intuito de me apresentar, como desenvolvedor web front-end.
 
 ## 🧠 Tecnologias utilizadas:
 
-O site **ainda está em desenvolvimento** pois estou em constante aprendizado, mas até aqui utilizei apenas:
+O site **ainda está em desenvolvimento**, pois estou em constante aprendizado. Mas até aqui utilizei as tecnologias:
 
 ![Stacks](https://skillicons.dev/icons?i=html,css,js&perline=8&theme=light)
 
