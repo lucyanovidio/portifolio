@@ -155,7 +155,7 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Desafio promovido pela Rocketseat com 21 projetos.</p>
+          <p>Projeto de site desenvolvido na Next Level Week Return da Rocketseat.</p>
           <p>HTML - CSS- JS</p>
         </div>
         <div class="card">
