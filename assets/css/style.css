@@ -951,6 +951,16 @@ footer .social-links {
   justify-content: flex-start;
 }
 
+footer .social-links li:nth-child(1) svg path {
+  stroke: var(--paragraph-2);
+}
+
+footer .social-links li:nth-child(2) svg path:nth-child(2),
+footer .social-links li:nth-child(3) svg path:nth-child(2),
+footer .social-links li:nth-child(4) svg path:nth-child(2) {
+  fill: var(--paragraph-2);
+}
+
 /*===== SWITCH MODE TOGGLE =====================================*/
 
 #toggle {
@@ -1395,16 +1405,6 @@ footer .social-links {
   footer .social-links {
     justify-content: flex-end;
   }
-
-  footer .social-links li:nth-child(1) svg path {
-    stroke: var(--paragraph-2);
-  }
-
-  footer .social-links li:nth-child(2) svg path:nth-child(2),
-  footer .social-links li:nth-child(3) svg path:nth-child(2),
-  footer .social-links li:nth-child(4) svg path:nth-child(2) {
-    fill: var(--paragraph-2);
-  }
 }
 
 @media (max-width: 500px) {
@@ -1668,5 +1668,4 @@ footer .social-links {
     width: 9rem;
     height: 2rem;
   }
-
 }
