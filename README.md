@@ -37,7 +37,7 @@ O site **ainda está em desenvolvimento**, pois estou em constante aprendizado. 
       <img src="https://github.com/lucyanovidio.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/in/lucyanovidio">Lucyan Ovídio.</a> 🙋🏿‍♂️
+      Feito por <a href="https://github.com/lucyanovidio">Lucyan Ovídio.</a> 🙋🏿‍♂️
     </td>
   </tr>
 </table>
