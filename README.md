@@ -6,7 +6,7 @@
 
 ---
 
-## 👨🏿‍💻 Sobre
+## 💻 Sobre
 
 Projeto feito no intuito de me apresentar, como desenvolvedor web front-end.
 
@@ -28,6 +28,15 @@ O site **ainda está em desenvolvimento**, pois estou em constante aprendizado. 
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </div>
+
+## 📚 Alguns conceitos aplicados
+
+Neste projeto apliquei os seguintes pontos:
++ Semântica HTML;
++ Pontos de acessibilidade;
++ Responsividade;
++ Mobile first;
++ Utilização da lib js <a href="https://scrollrevealjs.org">Scroll Reveal</a>.
 <br>
 
 ---
