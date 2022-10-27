@@ -1,6 +1,6 @@
 <h1 align="center">Portifólio - Lucyan 💻</h1>
 
-<img src="assets/images/projects/portifolio.png" alt="Imagem do projeto finalizado">
+![Imagem do projeto finalizado](assets/images/projects/portifolio.png)
 
 <h4 align="center"><a href="https://lucyanovidio.vercel.app">Confira o projeto aqui</a></h4>
 
