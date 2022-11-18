@@ -51,3 +51,7 @@ Neste projeto apliquei os seguintes pontos:
     </td>
   </tr>
 </table>
+
+## 🏆 Licença
+
+The [MIT License](./LICENSE) (MIT).
