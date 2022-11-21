@@ -37,7 +37,6 @@ Neste projeto apliquei os seguintes pontos:
 + Responsividade;
 + Mobile first;
 + Utilização da lib js <a href="https://scrollrevealjs.org">Scroll Reveal</a>.
-<br>
 
 ---
 
