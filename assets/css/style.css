@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 :root {
@@ -55,7 +55,7 @@ body.light-mode {
 }
 
 ::-webkit-scrollbar {
-  width: .8rem;
+  width: 0.8rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -151,7 +151,7 @@ section span {
 
 body.light-mode .button,
 body.light-mode #home h4 {
-  filter: brightness(.8);
+  filter: brightness(0.8);
 }
 
 .button:hover {
@@ -208,7 +208,12 @@ body nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
 }
 
 body.light-mode .social-links li:nth-child(2) svg:hover path:nth-child(2),
-body.light-mode nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
+body.light-mode
+  nav#navigation
+  .social-links
+  li:nth-child(2)
+  svg:hover
+  path:nth-child(2) {
   fill: #000;
 }
 
@@ -233,11 +238,11 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #contact li path,
-#navigation button.open-menu path[stroke*='#00856F'] {
+#navigation button.open-menu path[stroke*="#00856F"] {
   stroke: var(--primary-color);
 }
 
-#navigation.scroll button.open-menu path[stroke*='#00856F'] {
+#navigation.scroll button.open-menu path[stroke*="#00856F"] {
   stroke: var(--paragraph-2);
 }
 
@@ -273,9 +278,9 @@ body.light-mode nav.scroll {
 /* LOGO */
 
 a.logo {
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: "Gemunu Libre", sans-serif;
   font-size: 3rem;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 nav#navigation a.logo {
@@ -299,7 +304,7 @@ body.menu-expanded nav#navigation a.logo {
 }
 
 body.light-mode nav#navigation a.logo {
-  filter: brightness(.8);
+  filter: brightness(0.8);
 }
 
 body.light-mode footer a.logo,
@@ -407,7 +412,7 @@ body.menu-expanded button path {
 
 #home .wrapper {
   height: 53rem;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -491,7 +496,7 @@ body.menu-expanded button path {
 }
 
 #home .wrapper::before {
-  content: '';
+  content: "";
   display: block;
 
   width: 27rem;
@@ -632,7 +637,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #projects header p + a {
-  padding: .8rem 2rem;
+  padding: 0.8rem 2rem;
   color: var(--paragraph);
 
   background-color: var(--third-color);
@@ -650,7 +655,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #projects header a:hover {
-  filter: brightness(.7);
+  filter: brightness(0.7);
 }
 
 #projects .cards {
@@ -687,13 +692,13 @@ body.light-mode #home img#notebook-2-white {
   width: 100%;
   height: 20rem;
   object-fit: cover;
-  border-radius: .6rem;
+  border-radius: 0.6rem;
 
   transition: 300ms;
 }
 
 #projects .card:hover > .img-wrapper img {
-  filter: opacity(.5);
+  filter: opacity(0.5);
 }
 
 #projects .card .buttons {
@@ -898,7 +903,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b::after {
-  content: '';
+  content: "";
   display: block;
 
   width: 13rem;
@@ -929,7 +934,7 @@ footer .wrapper {
 footer .logo {
   display: inline-block;
   margin-bottom: 2.4rem;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 footer a img:nth-child(2),
@@ -981,7 +986,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   height: 4rem;
 
   background-color: var(--secundary-color);
-  border: .1rem solid var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
   border-radius: 5rem;
 
   display: flex;
@@ -994,7 +999,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 #toggle label::before {
-  content: '';
+  content: "";
   display: block;
 
   width: 3rem;
@@ -1004,8 +1009,8 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   border-radius: 50%;
 
   position: absolute;
-  bottom: .5rem;
-  left: .6rem;
+  bottom: 0.5rem;
+  left: 0.6rem;
   transform: translateX(0);
 
   transition: 500ms;
@@ -1089,7 +1094,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   nav#navigation a.logo,
   footer a.logo {
     font-size: 4rem;
-    opacity: .7;
+    opacity: 0.7;
   }
 
   nav#navigation .close-menu,
@@ -1113,10 +1118,10 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   nav#navigation .menu ul li a {
     color: var(--primary-color);
     opacity: 0.7;
-    
+
     transition: opacity 0.4s;
   }
-  
+
   body.light-mode nav#navigation .menu ul li a {
     opacity: 1;
   }
@@ -1148,7 +1153,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   nav#navigation .menu ul:nth-child(1) li a::after {
-    content: '';
+    content: "";
     width: 0%;
     height: 2px;
     background-color: var(--primary-color);
@@ -1258,8 +1263,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     justify-content: space-between;
 
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-      'A B';
+    grid-template-areas: "A B";
   }
 
   #home .col-a {
@@ -1304,7 +1308,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
-    grid-template-areas: 'B A';
+    grid-template-areas: "B A";
 
     gap: 6.7rem;
   }
@@ -1364,7 +1368,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   #contact .col-a {
@@ -1387,7 +1391,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'A B';
+    grid-template-areas: "A B";
   }
 
   footer .col-a {
@@ -1461,7 +1465,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   /*===== HOME ==================================*/
-  
+
   #home h1 {
     font-size: 3.8rem;
   }
@@ -1529,8 +1533,8 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   #home .wrapper::before {
     width: 24rem;
     height: 24rem;
-    
-    bottom: -.5rem;
+
+    bottom: -0.5rem;
   }
 }
 
@@ -1588,7 +1592,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   body section h2 {
     font-size: 2rem;
   }
-  
+
   section h3 {
     font-size: 1.2rem;
   }
@@ -1600,9 +1604,9 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   .button {
-    padding: .8rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     font-size: 1rem;
-    gap: .6rem;
+    gap: 0.6rem;
   }
 
   .social-links {
@@ -1627,7 +1631,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   #home .wrapper::before {
     width: 15rem;
     height: 15rem;
-    
+
     bottom: 3.5rem;
   }
 
