@@ -42,7 +42,7 @@ function projetos(section) {
             </div>
           </div>
           <p>
-            Plataforma de estudos desenvolvida na Hackathon do Programa de Fromação 4 da FCamara.
+            Plataforma de estudos desenvolvida na Hackathon do Programa de Formação 4 da FCamara.
           </p>
           <p>HTML - CSS - JS - NodeJS - Express - SQLite</p>
         </div>

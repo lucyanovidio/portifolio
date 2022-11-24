@@ -36,7 +36,7 @@ Neste projeto apliquei os seguintes pontos:
 + Pontos de acessibilidade;
 + Responsividade;
 + Mobile first;
-+ Utilização da lib js <a href="https://scrollrevealjs.org">Scroll Reveal</a>.
++ Utilização da lib JS <a href="https://scrollrevealjs.org">Scroll Reveal</a>.
 
 ---
 
@@ -53,4 +53,4 @@ Neste projeto apliquei os seguintes pontos:
 
 ## 🏆 Licença
 
-The [MIT License](./LICENSE) (MIT).
+The [MIT License](./LICENSE).
