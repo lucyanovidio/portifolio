@@ -1322,7 +1322,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   #about img:hover {
-    width: 83%;
+    transform: scale(1.07);
   }
 
   /*===== PROJECTS ====================================*/
