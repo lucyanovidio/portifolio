@@ -760,7 +760,7 @@ body.light-mode #home img#notebook-2-white {
   fill: #fff;
 }
 
-#projects .card:last-child svg path:nth-child(2) {
+#projects .card:nth-child(8) svg path:nth-child(2) {
   fill: var(--paragraph);
 }
 
